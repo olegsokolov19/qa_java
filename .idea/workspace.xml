@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f03b5dfb-ec2f-4c6f-b3e8-f0ec40b8a4ea" name="Default Changelist" comment="Added isolation in the Lion class from the Feline class">
+    <list default="true" id="f03b5dfb-ec2f-4c6f-b3e8-f0ec40b8a4ea" name="Default Changelist" comment="Deleted unused MockeRule">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/Alex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
       <command value="mvn verify" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AlexTest">
+  <component name="RunManager" selected="JUnit.LionTest">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -102,22 +102,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlexTest.getFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="untitled" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
-      <option name="METHOD_NAME" value="getFood" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AlexTest.getFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
@@ -134,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlexTest.getKittens" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -143,14 +127,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
-      <option name="METHOD_NAME" value="getKittens" />
+      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LionTest.shouldReturnPredator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="untitled" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example" />
+      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
+      <option name="METHOD_NAME" value="shouldReturnPredator" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LionTest.shouldThrowExceptionWithIncorrectMane" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -159,19 +158,20 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
-      <option name="MAIN_CLASS_NAME" value="com.example.AnimalTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.example.LionTest" />
+      <option name="METHOD_NAME" value="shouldThrowExceptionWithIncorrectMane" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LionTest" />
+        <item itemvalue="JUnit.LionTest.shouldThrowExceptionWithIncorrectMane" />
+        <item itemvalue="JUnit.LionTest.shouldReturnPredator" />
         <item itemvalue="JUnit.AlexTest" />
         <item itemvalue="JUnit.AlexTest.getFriends" />
-        <item itemvalue="JUnit.AlexTest.getFood" />
-        <item itemvalue="JUnit.AlexTest.getKittens" />
-        <item itemvalue="JUnit.AnimalTest" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +186,7 @@
       <workItem from="1651671325202" duration="15370000" />
       <workItem from="1651919829294" duration="10313000" />
       <workItem from="1651999624212" duration="8719000" />
-      <workItem from="1652201723131" duration="1847000" />
+      <workItem from="1652201723131" duration="2519000" />
     </task>
     <task id="LOCAL-00001" summary="Add test for clases">
       <created>1652199819057</created>
@@ -216,7 +216,21 @@
       <option name="project" value="LOCAL" />
       <updated>1652245200841</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Changed inheritance in the Alex class">
+      <created>1652247044023</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652247044023</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Deleted unused MockeRule">
+      <created>1652247143943</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652247143943</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +253,8 @@
     <MESSAGE value="Add Class &quot;Alex&quot; and test" />
     <MESSAGE value="Add test for Clases" />
     <MESSAGE value="Added isolation in the Lion class from the Feline class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added isolation in the Lion class from the Feline class" />
+    <MESSAGE value="Changed inheritance in the Alex class" />
+    <MESSAGE value="Deleted unused MockeRule" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deleted unused MockeRule" />
   </component>
 </project>
