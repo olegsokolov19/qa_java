@@ -15,20 +15,19 @@ import static org.junit.Assert.*;
 public class AlexTest {
 
     @Mock
-    Lion lion;
+    Feline feline;
 
     Alex alex;
 
     @Before
     public void setUp() throws Exception {
-        alex = new Alex(lion);
+        alex = new Alex(feline);
     }
 
     @Test
     public void getKittens() {
         int expected = 0;
         int actual = alex.getKittens();
-
         assertEquals(expected, actual);
     }
 
@@ -42,7 +41,7 @@ public class AlexTest {
 
     @Test
     public void getFood() throws Exception {
-        Mockito.when(lion.getFood()).thenReturn(List.of("Животные", "Птицы", "Рыба"));
+        Mockito.when(feline.getFood("Хищник")).thenReturn(List.of("Животные", "Птицы", "Рыба"));
 
         List<String> expected = List.of("Животные", "Птицы", "Рыба");
         List<String> actual = alex.getFood();

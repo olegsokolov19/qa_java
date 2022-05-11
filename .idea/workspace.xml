@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f03b5dfb-ec2f-4c6f-b3e8-f0ec40b8a4ea" name="Default Changelist" comment="Deleted unused MockeRule">
+    <list default="true" id="f03b5dfb-ec2f-4c6f-b3e8-f0ec40b8a4ea" name="Default Changelist" comment="Fixed test for Lion class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/AlexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/LionTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AlexTest.getFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlexTest.getFood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="untitled" />
       <extension name="coverage">
         <pattern>
@@ -112,7 +111,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example" />
       <option name="MAIN_CLASS_NAME" value="com.example.AlexTest" />
-      <option name="METHOD_NAME" value="getFriends" />
+      <option name="METHOD_NAME" value="getFood" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -168,10 +167,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LionTest" />
+        <item itemvalue="JUnit.AlexTest.getFood" />
+        <item itemvalue="JUnit.AlexTest" />
         <item itemvalue="JUnit.LionTest.shouldThrowExceptionWithIncorrectMane" />
         <item itemvalue="JUnit.LionTest.shouldReturnPredator" />
-        <item itemvalue="JUnit.AlexTest" />
-        <item itemvalue="JUnit.AlexTest.getFriends" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +185,7 @@
       <workItem from="1651671325202" duration="15370000" />
       <workItem from="1651919829294" duration="10313000" />
       <workItem from="1651999624212" duration="8719000" />
-      <workItem from="1652201723131" duration="2519000" />
+      <workItem from="1652201723131" duration="2860000" />
     </task>
     <task id="LOCAL-00001" summary="Add test for clases">
       <created>1652199819057</created>
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652247143943</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Fixed test for Lion class">
+      <created>1652247676605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652247676605</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +261,7 @@
     <MESSAGE value="Added isolation in the Lion class from the Feline class" />
     <MESSAGE value="Changed inheritance in the Alex class" />
     <MESSAGE value="Deleted unused MockeRule" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deleted unused MockeRule" />
+    <MESSAGE value="Fixed test for Lion class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed test for Lion class" />
   </component>
 </project>

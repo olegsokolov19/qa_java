@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="0" name="com.example.AlexTest" time="0.024" errors="0" skipped="0">
+<testsuite tests="5" failures="0" name="com.example.AlexTest" time="0.005" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2021.1.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -62,9 +62,9 @@
     <property name="java.vendor.version" value="Corretto-11.0.14.10.1"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.example.AlexTest" name="doesHaveMane" time="0.022"/>
-  <testcase classname="com.example.AlexTest" name="getFood" time="0.001"/>
-  <testcase classname="com.example.AlexTest" name="getKittens" time="0.001"/>
+  <testcase classname="com.example.AlexTest" name="doesHaveMane" time="0.001"/>
+  <testcase classname="com.example.AlexTest" name="getFood" time="0.004"/>
+  <testcase classname="com.example.AlexTest" name="getKittens" time="0"/>
   <testcase classname="com.example.AlexTest" name="getFriends" time="0"/>
   <testcase classname="com.example.AlexTest" name="getPlaceOfLiving" time="0"/>
 </testsuite>
