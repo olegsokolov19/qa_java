@@ -15,9 +15,6 @@ import static org.junit.Assert.assertEquals;
 @RunWith(Parameterized.class)
 public class LionTest {
 
-    @Rule
-    public MockitoRule rule = MockitoJUnit.rule();
-
     private final String sex;
     private Lion lion;
 
