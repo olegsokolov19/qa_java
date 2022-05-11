@@ -4,13 +4,11 @@ import java.util.List;
 
 public class Alex extends Lion {
 
-    private final Lion lion;
     private final List<String> friends = List.of("Марти", "Глория", "Мелман");
     private final String location = "Нью-Йоркский зоопарк";
 
-    public Alex(Lion lion) throws Exception {
-        super("Самец");
-        this.lion = lion;
+    public Alex(Feline feline) throws Exception {
+        super("Самец", feline);
     }
 
     @Override
@@ -21,10 +19,6 @@ public class Alex extends Lion {
     @Override
     public boolean doesHaveMane() {
         return true;
-    }
-
-    public List<String> getFood() throws Exception {
-        return lion.getFood();
     }
 
     public List<String> getFriends() {
